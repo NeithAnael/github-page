@@ -1,0 +1,259 @@
+@import 'typography.scss';
+
+
+body {
+    padding-top: 100px;
+    background-color: #000;
+    color: #fff;
+    font-family: $font-style;
+    font-size: $base-font-size;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+header { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: $font-style;
+    font-size: $base-font-size;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ccc;
+
+}
+
+/*presentation*/
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh; 
+    background-color: #000;
+    color: #fff;
+    font-family: $font-style;
+    font-size: $base-font-size;
+
+    section h1 {
+        font-family: $font-style;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    section p {
+        font-family: $font-style;
+        font-size: 16px;
+        max-width: 600px;
+    }
+}
+
+
+
+/*sections*/
+//*About*//
+section#About {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    font-family: $font-style;
+
+    h2 {
+        font-family: $font-style;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        font-family: $font-style;
+        font-size: 16px;
+        max-width: 600px;
+    }
+
+    #About {
+        text-align: center;  // Centra el contenido horizontalmente
+      }
+      
+      img.profile-image {
+        display: block;  
+        margin: 0 auto;  
+        max-width: 100%;  
+        border-radius: 50%;  
+        width: 200px;  
+        height: auto; 
+      }
+      
+}
+
+
+
+//*Projects*//
+section#Projects {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    font-family: $font-style;
+
+    h2 {
+        font-family: $font-style;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        font-family: $font-style;
+        font-size: 16px;
+        max-width: 600px;
+    }
+
+    #Projects {
+        text-align: center;  // Centra el contenido horizontalmente
+      }
+      
+      img.profile-image {
+        display: block;  
+        margin: 0 auto;  
+        max-width: 100%;  
+        border-radius: 50%;  
+        width: 200px;  
+        height: auto; 
+      }
+}
+
+
+
+//*Skills*//
+section#Skills {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    font-family: $font-style;
+    text-align: center;
+    padding: 20px;
+
+    h2 {
+      font-size: 36px;
+    }
+  
+    h3 {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  
+    ul {
+      font-size: 16px;  
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(1, 2fr); 
+      gap: 10px; 
+      text-align: center;
+  
+      li {
+        margin: 0;
+        padding: 0;
+        flex: 1;
+      }
+    }
+  }
+  
+
+//*Work Experience*//
+section#Work-Experience {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    font-family: $font-style;
+
+    h2 {
+        font-family: $font-style;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        font-family: $font-style;
+        font-size: 16px;
+        max-width: 600px;
+    }
+}
+
+//*Contact*//
+section#Contact {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    font-family: $font-style;
+
+    h2 {
+        font-family: $font-style;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        font-family: $font-style;
+        font-size: 16px;
+        max-width: 600px;
+    }
+}
